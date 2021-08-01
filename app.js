@@ -48,7 +48,7 @@ io.on("connection" , function(socket){
 
 
 
-let port = process.enc.PORT || 3000 ; 
+let port = process.enc.PORT || 3003 ; 
 server.listen(port, function(){
     console.log("Server started at port :  " + port ) ; 
 }) ; 
